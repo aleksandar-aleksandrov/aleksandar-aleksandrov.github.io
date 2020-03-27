@@ -1,37 +1,104 @@
-# Pudhina
-A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability
+# Reked is a minimal and responsive blog theme for Jekyll. It is focused on the content, speed, simplicity
 
-[Click here](https://knhash.github.io/Pudhina/) to see the theme in action. Note that the download PDF button redirects to 404 due to lack of the file. This is by design, to demonstrate the Glitch effect therein.
+### Features
 
-## Screenshots
+* 100% responsive and clean theme
+* Optimized for mobile devices
+* Minimal design
+* Valid HTML5 code
+* Post sharing
+* Image Zoom
+* MailChimp Form Widget
+* Supports Disqus Comments
+* Supports Google Analytics
+* Ionicons
+* Google Fonts
 
-![Home](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/home.png?raw=true "Home") 
-![Blog](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/blog.png?raw=true "Blog") 
-![Resume](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/resume.png?raw=true "Resume") 
-![Post](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/post.png?raw=true "Post") 
-![404](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/404.png?raw=true "404") 
+* * *
 
-## Features
-- Simple, minimal and clean
-- Blog posts categorised
-- Responsive
-- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
-- Font-Awesome Icons.
-- Glitchy 404 page
+### Demo
 
-## How to use it
-- Start by cloning the repository, then check the `_config.yml` file and change it accordingly. Note that the `title` property is what will be displayed as logo.
-- Execute `jekyll serve` and head to [localhost:4000](http://127.0.0.1:4000) to see the results locally.
+Check the theme in action [Demo](https://reked.netlify.com/)
 
-## Customization
-- Change main picture and icon in `/assets/img/pudhina`.  
-- Change main details regarding site in `_config.yml`.
-- Configure `index.md` for the main page, `blog.md` for Blog listing and `resume.md` for Resume page.
-- CSS properties can be found in `/assets/css/main.css`.
-- New posts to be created in the `/_posts/` directory, follow the naming convention used in samples. Front-matter requires title, subtitle, categories and date.
+The main page would look like this:
 
-## Credits
-Inspired by the theme [Daktilo](https://github.com/kronik3r/daktilo)
+![Main page preview](https://github.com/artemsheludko/reked/blob/master/images/reked-preview.jpg?raw=true)
 
-## License
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+* * *
+
+### Deployment
+
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+
+## Stackbit
+
+This theme is ready to import into Stackbit. It can be deployed to Netlify and you can connect any headless CMS including Forestry, NetlifyCMS, DatoCMS, Sanity or Contentful.
+
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/artemsheludko/reked)
+
+* * *
+
+### Posts
+
+To create a new post, you can create a new markdown file inside the \_posts directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
+
+      ---
+      layout: post
+      title: "Welcome to Jekyll!"
+      date: 2018-08-23 16:04:00 +0300
+      image: 03.jpg
+      tags: Jekyll
+      ---
+
+
+You can set the tags and the post image.
+
+Add post images to **/images/** directory.
+
+For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
+
+* * *
+
+### Disqus Comments
+
+Reked Theme comes with Disqus comments enabled.
+
+Open `_config.yml` file, and change the `mr-brown` value on line 30 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
+
+      Comment Section (Disqus)
+      disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+
+That’s all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide).
+
+And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
+
+* * *
+
+### Google Analytics
+
+To integrate Google Analytics, open `_config.yml`, and add your Google Analytics identifier.
+
+    # Google Analytics
+    google-analytics: \# Add your identifier. For example UA-99631805-1
+
+
+* * *
+
+### Update favicon
+
+You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
+
+* * *
+
+### License
+
+Mit License
+
+* * *
+
+### Support
+
+If you’d like to support me so I can continue to provide free content and themes you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.

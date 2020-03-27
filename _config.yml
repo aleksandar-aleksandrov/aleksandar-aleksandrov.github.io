@@ -1,23 +1,66 @@
-# Site settings
-title: Pudhina
-description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+title: Reked
+logo: "images/logo.svg" # You can add own logo image.
+description: Minimalistic Theme for Jekyll
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://aleksandar-aleksandrov.github.io" # the base hostname & protocol for your site
-
+# Author Settings
 author:
-  fullname: Pudhina
-  github: github
-  linkedin: linkedin
-  email: example@email.com
+  name: Sasha Levi
+  bio: Hi, my name is Sasha Levi. I like being at the center of events, being free and enjoying every moment. Thank you for visiting my blog.
 
+# Contact links
+twitter: https://twitter.com/ # Add your Twitter handle
+facebook: https://facebook.com/ # Add your Facebook handle
+dribbble: https://dribbble.com/ # Add your Dribbble handle
+instagram: https://instagram.com/ # Add your Instagram handle
+pinterest: https://pinterest.com/ # Add your Pinterest handle
+email: forexample@website.com # Add your Email address
 
-# Syntax highlighting
-highlightstyle: 'agate'
-styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+# Hero Section
+hero: true # To enable the section hero, use the value true. To turn off use the value false.
+hero-title: Raked Minimalistic Theme # Add your hero title
+hero-subtitle: For those who love simplicity # Add your hero subtitle
+hero-image: images/14.jpg # Add background image in section hero
 
+# Footer
+footer-image: images/14.jpg # Add background image in footer
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+# Google Analytics
+google-analytics: "" # Add your identifier. For example UA-99631805-1.
+
+# Newsletter
+mailchimp: "" # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Build settings
-highlighter: null
 markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 4
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
