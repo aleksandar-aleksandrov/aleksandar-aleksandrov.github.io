@@ -13,7 +13,7 @@ title: Résumé
 
 Software Developer /Working Student/ - **PwC GmbH WPG, München** <span style="float: right; ">10/2018 - 02/2020</span>  
  
-Software Developer /Working Student/ - **PwC IT Services Europe GmbH, Düsseldorf** <span style="float: right; ">11/2017 - 09/2018</span>  
+Software Developer /Working Student/ - **PwC IT Services Europe, Düsseldorf** <span style="float: right; ">11/2017 - 09/2018</span>  
 
 IT Intern - **Mapudo GmbH, Düsseldorf** <span style="float: right; ">04/2017 - 07/2017</span>  
 
