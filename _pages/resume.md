@@ -21,9 +21,11 @@ Title - **Comapany** <span style="float: right; ">Duration</span>
 _Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
 Technologies used  
 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+IT Intern - **Mapudo GmbH, Düsseldorf** <span style="float: right; ">04/2017 - 07/2017</span>  
+- Improved the coverage of automated testing by 30% by integrating new test modules and refactoring old ones.
+- Examined implementations of new features through code reviews and manual tests of the provided implementations.
+- Evaluated the platform from SEO standpoint and proposed changes. Developed a strategy for implementing the changes.
+
 
 ### EDUCATION
 
