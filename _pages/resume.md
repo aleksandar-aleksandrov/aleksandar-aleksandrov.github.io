@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Résumé
-subtitle: An awesome person
 ---
 
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
@@ -12,50 +11,44 @@ subtitle: An awesome person
 
 ### EXPERIENCE
 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
-
+Software Developer /Working Student/ - **PwC GmbH WPG, München** <span style="float: right; ">10/2018 - 02/2020</span>  
+- Extended backend capabilities of an ML-driven application by implementing new features in python.
+- Improved server response time by 150% by integrating Tensorflow Serving for model serving into existing architecture.
+- Improved an application architecture by developing and lobbying for a microservice architecture.
+- Lobbied for 2 new projects by presenting prototypes to the business.
+- Enhanced code quality by formalizing coding standards & practices.
+- Refined a frontend by porting it from vanilla JS to lit-html.
  
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
+Software Developer /Working Student/ - **PwC IT Services Europe GmbH, Düsseldorf** <span style="float: right; ">11/2017 - 09/2018</span>  
+- Expanded application capabilities by developing, dockerizing and integrating new microservices in the existing architecture.
+- Supported the deployment of an application on the cloud.
 
 IT Intern - **Mapudo GmbH, Düsseldorf** <span style="float: right; ">04/2017 - 07/2017</span>  
 - Improved the coverage of automated testing by 30% by integrating new test modules and refactoring old ones.
 - Examined implementations of new features through code reviews and manual tests of the provided implementations.
 - Evaluated the platform from SEO standpoint and proposed changes. Developed a strategy for implementing the changes.
 
+Manual Tester /Working Student/ - **trivago GmbH, Düsseldorf** <span style="float: right; ">04/2016 - 10/2016</span>  
+- Assessed the quality of the platform by executing various manual tests.
+- Initiated improvements in the testing process by lobbying for new scenarios and new testing practices.
 
 ### EDUCATION
 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
- 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
+Technische Universität München <span style="float: right; ">10/2018</span>  
+**M. Sc. Informatics**  
+Relevant Coursework: Cognitive Systems, Introduction to Deep Learning, Advanced Deep Learning for Robotics, Techniques in Artificial Intelligence, Strategic IT Management and Enterprise Architecture Management
+Current GPA: 1.8
 
-Institute <span style="float: right; ">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit. 
+Universität Duisburg-Essen <span style="float: right; ">10/2014 - 07/2018</span>  
+**B. Sc. Computer Engineering**  
+Relevant Coursework: Programming Paradigms, Databases, Modelling, Data Structures and Algorithms, Fundamentals of Programming, Object-oriented Programming,  Advanced Programming Technology
+Bachelor thesis: Development of a reactive rule-based visual programming tool
+GPA: 1.5
 
 ### PROJECTS
 **Title** - Description - Place <span style="float: right; ">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
 
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
+### Certificates
 
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
-
-### RECOGNITION & INTERESTS
-
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
-- Etiam luctus ante quis est dictum faucibus.
+- Tensorflow in Practice coursera/deeplearning.ai 10/2019
