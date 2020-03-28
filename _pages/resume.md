@@ -23,13 +23,13 @@ Manual Tester /Working Student/ - **trivago GmbH, Düsseldorf** <span style="flo
 
 Technische Universität München <span style="float: right; ">10/2018</span>  
 **M. Sc. Informatics**  
-**Relevant Coursework:** Cognitive Systems, Introduction to Deep Learning, Advanced Deep Learning for Robotics, Techniques in Artificial Intelligence, Strategic IT Management and Enterprise Architecture Management
-**Current GPA:** 1.8
+**Relevant Coursework:** Cognitive Systems, Introduction to Deep Learning, Advanced Deep Learning for Robotics, Techniques in Artificial Intelligence, Strategic IT Management and Enterprise Architecture Management<br/>
+**Current GPA:** 1.8<br/>
 
 Universität Duisburg-Essen <span style="float: right; ">10/2014 - 07/2018</span>  
 **B. Sc. Computer Engineering**  
-**Relevant Coursework:** Programming Paradigms, Databases, Modelling, Data Structures and Algorithms, Fundamentals of Programming, Object-oriented Programming,  Advanced Programming Technology
-**Bachelor thesis:** Development of a reactive rule-based visual programming tool
+**Relevant Coursework:** Programming Paradigms, Databases, Modelling, Data Structures and Algorithms, Fundamentals of Programming, Object-oriented Programming,  Advanced Programming Technology<br/>
+**Bachelor thesis:** Development of a reactive rule-based visual programming tool<br/>
 **GPA:** 1.5
 
 ### PROJECTS
